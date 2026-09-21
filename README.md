@@ -12,7 +12,7 @@ Lee todos los registros de una tabla MySQL, los guarda en `data.csv` y sube el a
 | DB_PASSWORD | Clave | (vacia) |
 | DB_NAME | Base de datos | bd_ingesta |
 | DB_TABLE | Tabla a leer | personas |
-| S3_BUCKET | Bucket destino | gcr-output-01 |
+| S3_BUCKET | Bucket destino | dgt-ingesta-02 |
 
 ## Ejecucion
 
