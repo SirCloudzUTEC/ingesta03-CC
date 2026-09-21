@@ -13,7 +13,7 @@ baseDatos = os.environ.get("DB_NAME", "bd_ingesta")
 tabla = os.environ.get("DB_TABLE", "personas")
 
 ficheroUpload = "data.csv"
-nombreBucket = os.environ.get("S3_BUCKET", "gcr-output-01")
+nombreBucket = os.environ.get("S3_BUCKET", "dgt-ingesta-02")
 
 # 1. Conectarse a MySQL y leer todos los registros de la tabla
 conexion = pymysql.connect(host=host, port=puerto, user=usuario,
